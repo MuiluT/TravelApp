@@ -124,7 +124,7 @@ $(document).on("pagecreate", "#trip", function()
                 $.ajax(
                     {
                         type: 'GET',
-                        url: "https://restcountries.eu/rest/v2/name/" + country,
+                        url: "https://restcountries.eu/rest/v1/name/" + country,
 
                         success: function(countryinfos)
                             {   //Select a specific info from the countryinfos
@@ -223,3 +223,13 @@ $(function()  //self-executing function
 //    }
     
 //});
+
+
+//
+//Updating the profile
+//
+
+//$(document).on("pagecreate", "#updateP", function()
+//    {
+    
+//    });
